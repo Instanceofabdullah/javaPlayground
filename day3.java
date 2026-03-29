@@ -109,5 +109,8 @@ public class day3
         // All objects are stored in heap memory with their reference variable stored in stack memory.
         // Heap, stack etc are created inside a computer's ram when program executes
 
+
+        System.out.println("Day 3 - Loops, Class, object, methods, memory(Stack / Heap)");
+
     }
 }
