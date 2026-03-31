@@ -5,9 +5,9 @@ public class day6
     {
         // System.out.println("Day 6 - this* keyword, constructor and more");
 
-        Human h1 = new Human(18, "Zayn");
-        // h1.setName("Ali");
-        System.out.println("Your name is " + h1.getName() + " and you are " + h1.getAge() + " years old.");
+        // Human h1 = new Human(18, "Zayn");
+        // // h1.setName("Ali");
+        // System.out.println("Your name is " + h1.getName() + " and you are " + h1.getAge() + " years old.");
 
         // 1. this* keyword - refers to current object and is used to differentiate instance variable from parameters.
 
@@ -26,31 +26,31 @@ public class day6
     }
 }
 
-class Human 
-{
-    private String name;
-    private int age;
-    private static String country;
+// class Human 
+// {
+//     private String name;
+//     private int age;
+//     private static String country;
 
-    //static - which remians same for all objs created from a class
+//     //static - which remians same for all objs created from a class
     
 
-    // Constructor which runs at the time of obj intiatkization
-    public Human(int age, String name) {
-        this.age = age;
-        this.name = name;
-    }
+//     // Constructor which runs at the time of obj intiatkization
+//     public Human(int age, String name) {
+//         this.age = age;
+//         this.name = name;
+//     }
 
-    public void setName(String name){
-        // this* keyword - keyword which reflects to the called object
-        this.name = name;
-    }
+//     public void setName(String name){
+//         // this* keyword - keyword which reflects to the called object
+//         this.name = name;
+//     }
 
-    public String getName(){
-        return name;
-    }
+//     public String getName(){
+//         return name;
+//     }
 
-    public int getAge(){
-        return age;
-    }
-}
+//     public int getAge(){
+//         return age;
+//     }
+// }
